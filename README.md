@@ -10,7 +10,7 @@
 ### Download Google drive file
 
 ```sh
-sh drive-downloader.sh FILE_ID
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ahmedfaragmostafa/shell-utilities/master/drive-downloader.sh)" FILE_ID
 ```
 
 
