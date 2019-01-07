@@ -16,5 +16,5 @@ sh drive-downloader.sh FILE_ID
 
 ###  clean docker old docker volumes - useless images .......etc
 ```sh
-sh docker-cleanup.sh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ahmedfaragmostafa/shell-utilities/master/docker-cleanup.sh)"
 ```
